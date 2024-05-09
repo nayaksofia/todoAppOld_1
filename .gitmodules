@@ -1,0 +1,3 @@
+[submodule "frontend/old-todo"]
+	path = frontend/old-todo
+	url = C:\\Apps-Sofia-2024\\fullstack-workspace\\todoAppOldVer1\\frontend\\old-todo
