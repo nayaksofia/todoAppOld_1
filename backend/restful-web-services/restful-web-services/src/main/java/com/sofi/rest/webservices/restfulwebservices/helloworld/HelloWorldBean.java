@@ -1,6 +1,6 @@
 package com.sofi.rest.webservices.restfulwebservices.helloworld;
 
-import org.springframework.http.HttpStatus;
+
 
 public class HelloWorldBean {
 	
@@ -23,13 +23,5 @@ public class HelloWorldBean {
 	public String toString() {
 		return "HelloWorldBean [message=" + message + "]";
 	}
-
-	public static Object status(HttpStatus internalServerError) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	
-	
 
 }

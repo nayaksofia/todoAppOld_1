@@ -1,5 +1,4 @@
-
-package com.in28minutes.rest.webservices.restfulwebservices.basic.auth.config;
+package com.sofi.rest.webservices.restfulwebservices.basic.auth.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
@@ -21,5 +20,4 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedHeaders(HttpHeaders.CONTENT_TYPE,
                         HttpHeaders.AUTHORIZATION);
     }
-    
 }
