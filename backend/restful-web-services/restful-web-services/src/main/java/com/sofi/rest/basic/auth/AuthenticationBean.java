@@ -1,4 +1,4 @@
-package com.sofi.rest.webservices.restfulwebservices.basic.auth;
+package com.sofi.rest.basic.auth;
 
 import org.springframework.http.HttpStatus;
 

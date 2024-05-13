@@ -1,4 +1,4 @@
-package com.sofi.rest.webservices.restfulwebservices.basic.auth.config;
+package com.sofi.rest.basic.auth.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
