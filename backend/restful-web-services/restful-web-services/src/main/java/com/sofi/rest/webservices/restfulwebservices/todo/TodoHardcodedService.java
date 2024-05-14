@@ -12,7 +12,7 @@ public class TodoHardcodedService {
 	// Want to have a static list of Todos
 
 	private static List<Todo> todos = new ArrayList();
-	private static int idCounter = 0;
+	private static long idCounter = 0;
 
 	static {
 		todos.add(new Todo(++idCounter, "in6Hours", "Learn Springboot", new Date(), false));

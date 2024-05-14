@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Apps-Sofia-2024\fullstack-workspace\todoAppOldVer1\backend\restful-web-services"/>
 			<item value="C:\Apps-Sofia-2024\springboot-angular-workspace\back-end-projects\restful-web-services\restful-web-services"/>
 		</list>
 		<list key="projectNameTemplate">

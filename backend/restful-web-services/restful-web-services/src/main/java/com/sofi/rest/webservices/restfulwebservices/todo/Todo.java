@@ -3,8 +3,18 @@ package com.sofi.rest.webservices.restfulwebservices.todo;
 import java.util.Date;
 import java.util.Objects;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+
+@Entity
 public class Todo {
-	private long id;
+	
+	@Id
+	@GeneratedValue //Generate automatic Id 
+	private Long id;
+	
 	private String username;
 	private String description;
 	private Date targetDate;
@@ -17,7 +27,7 @@ public class Todo {
 	}
 
 	// generate parameterized constructor
-	public Todo(long id, String username, String description, Date targetDate, boolean isDone) {
+	public Todo(Long id, String username, String description, Date targetDate, boolean isDone) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -27,11 +37,12 @@ public class Todo {
 	}
 
 	// generate getter and setter
-	public long getId() {
+	
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -67,13 +78,14 @@ public class Todo {
 		this.isDone = isDone;
 	}
 
-
+	
 	// generate toString Method
 	@Override
 	public String toString() {
 		return "Todo [id=" + id + ", username=" + username + ", description=" + description + ", targetDate="
 				+ targetDate + ", isDone=" + isDone + "]";
 	}
+	
 	
 	//Todo Hardcoded Service: Generate hashcode and equals method
 
